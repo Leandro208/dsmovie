@@ -14,3 +14,36 @@ dsmovie é uma aplicação full stack web, que consiste em uma avaliação de fi
 - Back end: Heroku
 - Front end web: Netlify
 - Banco de dados: Postgresql
+
+# Como executar o projeto
+
+## Back end
+Pré-requisitos: Java 17
+
+```bash
+# clonar repositório
+git clone https://github.com/Leandro208/dsmovie.git
+
+# entrar na pasta do projeto back-end
+cd backend
+
+# executar o projeto
+./mvnw spring-boot:run
+```
+
+## Front end web
+Pré-requisitos: npm / yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/Leandro208/dsmovie.git
+
+# entrar na pasta do projeto front-end web
+cd frontend
+
+# instalar dependências
+yarn install
+
+# executar o projeto
+yarn start
+```
